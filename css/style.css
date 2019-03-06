@@ -1,0 +1,324 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: normal;
+    font-style: normal; 
+    direction: rtl;
+    background-color: #D6DFE5;
+
+}
+
+
+          /* ---------- > Start Header < -------------- */
+
+
+header
+{
+    overflow: hidden;
+    background-color: #309664;
+    height: 100%;
+}
+
+header .lang
+{
+    float: left;
+    padding-top: 15px;
+    font-family: 'Cairo', sans-serif;
+}
+
+header .lang a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav
+{
+    float: right;
+}
+
+header .bg-light
+{
+    background-color: unset!important;
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: #fff!important;
+    margin-left: 50px;
+    font-size: 1.2em;
+}
+
+header .title
+{
+    width: 50%;
+    margin: 0 auto;
+    padding: 60px 50px 0 0;
+    color: #fff;
+}
+
+header .title h2
+{
+    font-size: 80px;
+}
+
+header input
+{
+    border: none;
+    outline: none;
+    position: relative;
+    bottom: 60px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 19px;
+}
+
+          /* ---------- > End Header < -------------- */
+
+
+
+          /* ---------- > Start Main < -------------- */
+
+main
+{
+    margin-bottom: 30px;
+}
+
+main article .city
+{
+    margin-top: 30px;
+    background: #49b681;
+    padding: 25px 0 ;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+main article .city i
+{
+    color: #fff;
+    font-size: 3rem;
+    padding-left: 15px;
+}
+
+main article .city select
+{
+    font-size: 2.5rem;
+    background-color: unset;
+    color: #fff;
+    border: 1px solid #D6DFE5;
+    outline: none;
+    padding: 0 15px;
+}
+
+select option
+{
+    color: #000;
+    font-size: 1rem;
+}
+
+article .sub
+{
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+article .sub img 
+{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    cursor: pointer;
+} 
+
+article .sub h2
+{
+    text-align: center;
+    background-color: #fff;
+    padding: 15px 0;
+    border-radius: 0 0 20px 20px;
+    border-top: .5px solid #DDD;
+    box-shadow: 5px 5px #DDD;
+    transition: all 0.3s ease-in-out;
+}
+
+article .sub h2:hover
+{
+    background: #7cb62f;
+    color: #FFF;
+}
+
+
+
+          /* ---------- > End Main < ----------------- */
+
+          /* ---------- > Start Footer < -------------- */
+
+
+footer
+{
+    background-color: #309664;
+}
+
+footer .foot1 , .foot2 , .foot3
+{
+    padding: 30px 0;
+}
+
+footer h3
+{
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+footer i
+{
+    color: #fff;
+    font-size: 1.6rem
+}
+
+footer .foot2 , .foot3
+{
+    border-right: 1.5px solid #fff;
+}
+
+
+          /* ---------- > End Footer < -------------- */
+
+
+.scrollTop
+{
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    margin-bottom: 30px;
+    background: #7cb62f;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    direction: rtl;
+    display: none;
+}
+
+
+          /* ---------- > Media Queries < -------------- */
+
+
+@media (max-width:575px)
+{
+
+    header .title
+    {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header .title h2
+    {
+        display: block;
+        font-size: 60px;
+        margin-left: 50px;
+        width: 75%;
+        margin: 0 auto;
+        padding-left: 50px;
+    }
+
+    header input
+    {
+        bottom: 0;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    footer .foot2 , .foot3
+    {
+        border-right: none;
+    }
+
+    footer .foot1 , .foot2 , .foot3
+    {
+        padding: 15px 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px)
+{
+    header .title
+    {
+        display: block;
+        width: 50%;
+        margin: 0 ;
+    }
+
+    header .title h2
+    {
+        display: inline-block;
+        width: 100%;
+        margin: 0 160px 0 0;
+    }
+    header input
+    {
+        bottom: 0;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    footer .foot2 , .foot3
+    {
+        border-right: none;
+    }
+
+    footer .foot1 , .foot2 , .foot3
+    {
+        padding: 15px 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px)
+{
+    header .title
+    {
+        display: block;
+        width: 50%;
+        margin: 0 ;
+    }
+
+    header .title h2
+    {
+        display: inline-block;
+        width: 100%;
+        margin: 0 160px 0 0;
+        /* padding-right: 80px; */
+    }
+    header input
+    {
+        bottom: 0;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px)
+{
+    header .title h2
+    {
+        width: inherit;
+        margin: auto;
+    }
+}
